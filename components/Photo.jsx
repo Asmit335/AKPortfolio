@@ -23,6 +23,7 @@ export default function Photo() {
           >
             <Image
               src="/ppak.png"
+              alt="loading..."
               priority
               quality={100}
               fill
