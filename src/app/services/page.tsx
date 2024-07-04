@@ -37,7 +37,7 @@ const services = [
 export default function Page() {
   return (
     <>
-      <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
+      <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-8">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0 }}
@@ -53,7 +53,7 @@ export default function Page() {
                   key={index}
                   className="flex-1 flex flex-col justify-center gap-6 group"
                 >
-                  <div className="w-full flex justify-between items-center">
+                  <div className="w-full flex  justify-between items-center">
                     <div className="text-3xl font-extrabold text-transparent   bg-clip-text bg-gradient-to-r from-green-400  to-blue-500 hover:text-green-500 ">
                       {item.num}
                     </div>
@@ -67,7 +67,8 @@ export default function Page() {
                     {item.title}
                   </h2>
                   <p className="text-gray-600">{item.description}</p>
-                  <div className="border-b border-gray-200 w-full"></div>
+                  <div className="border-b border-white/20 w-full"></div>
+                  <hr />
                 </div>
               );
             })}
