@@ -1,11 +1,8 @@
 export default function About() {
   return (
     <>
-      <section
-        //   id="about"
-        className=" mt-20 mb-12 text-black font-bold"
-      >
-        about about
+      <section className="flex justify-center items-center bg-slate-500 h-full">
+        Wait It will be Developed ASAP.
       </section>
     </>
   );
