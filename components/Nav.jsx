@@ -9,15 +9,19 @@ const links = [
   },
   {
     name: "service",
-    href: "/services",
+    href: "/#services",
   },
   {
-    name: "resume",
-    href: "/resume",
+    name: "about",
+    href: "/#about",
   },
   {
     name: "work",
     href: "/work",
+  },
+  {
+    name: "document",
+    href: "/document",
   },
   {
     name: "contact",
